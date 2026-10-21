@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Your Name — Sales Operations Manager & Financial Data Analyst</title>
+<meta name="description" content="Sales operations manager (records store), financial data analyst specialised in payment system integration, transaction processing and database security.">
+<link rel="preconnect" href="[fonts.googleapis.com](https://fonts.googleapis.com)">
+<link rel="preconnect" href="[fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin>
+<link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Josefin+Sans:wght@300;400;600;700&display=swap)" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- INTRO: charging lamp -->
+<div id="intro" aria-hidden="true">
+  <svg viewBox="0 0 200 260" class="lamp">
+    <defs>
+      <clipPath id="bulbClip"><path d="M100 40c-34 0-58 24-58 56 0 22 12 36 22 48 6 8 8 14 8 24h56c0-10 2-16 8-24 10-12 22-26 22-48 0-32-24-56-58-56z"/></clipPath>
+    </defs>
+    <circle id="halo" cx="100" cy="100" r="90" class="halo"/>
+    <g clip-path="url(#bulbClip)">
+      <rect x="0" y="0" width="200" height="260" class="bulb-empty"/>
+      <rect id="fill" x="0" y="190" width="200" height="200" class="bulb-fill"/>
+    </g>
+    <path d="M100 40c-34 0-58 24-58 56 0 22 12 36 22 48 6 8 8 14 8 24h56c0-10 2-16 8-24 10-12 22-26 22-48 0-32-24-56-58-56z" class="bulb-outline"/>
+    <path d="M82 118l18-26 18 26M100 92v66" class="filament"/>
+    <rect x="76" y="168" width="48" height="12" rx="3" class="base"/>
+    <rect x="80" y="184" width="40" height="12" rx="3" class="base"/>
+    <rect x="88" y="200" width="24" height="10" rx="5" class="base"/>
+    <path d="M100 210v30" class="cable"/>
+  </svg>
+  <p class="intro-text">Charging light energy <span id="pct">0</span>%</p>
+</div>
+
+<div id="progress"></div>
+<canvas id="bg"></canvas>
+
+<header class="nav">
+  <a href="#home" class="brand">
+    <canvas id="logo" width="96" height="96" aria-label="Rotating mesh sphere logo"></canvas>
+    <span>Your Name</span>
+  </a>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#value">Value</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button id="theme" aria-label="Toggle light / dark mode">
+    <svg class="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5"/><path d="M12 1v3M12 20v3M1 12h3M20 12h3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>
+    <svg class="moon" viewBox="0 0 24 24"><path d="M21 13.5A9 9 0 1 1 10.5 3a7 7 0 0 0 10.5 10.5z"/></svg>
+  </button>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <p class="eyebrow reveal">Portfolio · 2026</p>
+    <h1 class="reveal">Sales Ops<br><em>meets</em> Financial Data.</h1>
+    <p class="lead reveal">Sales Operations Manager in a records store, Financial Data Analyst specialised in <strong>payment system integration</strong>, <strong>transaction processing</strong> and <strong>securing databases</strong>. Customer &amp; technical support in my DNA.</p>
+    <div class="cta reveal">
+      <a class="btn" href="#projects">See projects</a>
+      <a class="btn ghost" href="[github.com](https://github.com/YOUR-USERNAME)" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+    <div class="scroll-hint">scroll ↓</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2 class="big reveal">Profile</h2>
+    <div class="grid3">
+      <article class="card reveal"><span class="num">01</span><h3>Sales Operations</h3><p>I run daily operations of a records store: stock, pricing, supplier flow, POS and team performance.</p></article>
+      <article class="card reveal"><span class="num">02</span><h3>Financial Data</h3><p>I turn transactions into decisions: reconciliation, margin analysis, anomaly and fraud detection, dashboards.</p></article>
+      <article class="card reveal"><span class="num">03</span><h3>Payments &amp; Security</h3><p>I integrate payment systems, process transactions reliably and protect the databases behind them.</p></article>
+    </div>
+  </section>
+
+  <!-- VALUE -->
+  <section id="value" class="section alt">
+    <h2 class="big reveal">What I bring<br>to your company</h2>
+    <ul class="value-list">
+      <li class="reveal"><b>Fewer payment errors</b> — clean integrations, tested flows, automated reconciliation.</li>
+      <li class="reveal"><b>Decisions backed by data</b> — clear KPIs and dashboards for sales and finance teams.</li>
+      <li class="reveal"><b>Safer data</b> — access control, encryption, backups and audit trails on sensitive databases.</li>
+      <li class="reveal"><b>Happier customers</b> — fast, clear first-line and technical support that reduces churn.</li>
+      <li class="reveal"><b>Bridge between teams</b> — I speak business, finance and tech.</li>
+    </ul>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h2 class="big reveal">Periodic Table<br>of Skills</h2>
+    <p class="lead reveal">Click an element to learn what it means and how I use it.</p>
+    <div class="legend reveal">
+      <span><i class="dot tech"></i>Technical</span>
+      <span><i class="dot soft"></i>Soft skill</span>
+    </div>
+    <div id="table" class="table"></div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section alt">
+    <h2 class="big reveal">Projects</h2>
+    <div class="grid3" id="projectGrid"></div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <h2 class="big reveal">Let's work<br>together.</h2>
+    <div class="cta reveal">
+      <a class="btn" href="mailto:you@example.com">you@example.com</a>
+      <a class="btn ghost" href="[linkedin.com](https://www.linkedin.com/in/YOUR-USERNAME)" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a class="btn ghost" href="[github.com](https://github.com/YOUR-USERNAME)" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+    <footer>© 2026 Your Name · Built with HTML, CSS &amp; JavaScript</footer>
+  </section>
+</main>
+
+<!-- SKILL POPUP -->
+<div id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="mTitle" hidden>
+  <div class="window">
+    <div class="titlebar">
+      <span><i></i><i></i><i></i></span>
+      <small id="mUrl">skill.exe</small>
+      <button id="mClose" aria-label="Close">✕</button>
+    </div>
+    <div class="body">
+      <div id="mTile" class="tile big-tile"></div>
+      <div>
+        <p id="mCat" class="eyebrow"></p>
+        <h3 id="mTitle"></h3>
+        <p id="mDesc"></p>
+        <h4>What it brings you</h4>
+        <p id="mBring"></p>
+        <div class="meter"><div id="mBar"></div></div>
+        <small id="mLvl"></small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
